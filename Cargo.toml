@@ -1,0 +1,14 @@
+# crpt_engine — the CRPT ω-Tower, in Rust, as the specification.
+#
+# This is ONE crate whose module structure IS the specification's structure: one
+# module per rank (r0–r6, romega), and within each rank one submodule per section
+# (R#.s), named by the section's meaning. The engine does not approximate or
+# resemble CRPT — it is the theory, construct for construct, cited by R-label.
+# Spec: ../CRPT_OMEGA_TOWER_ (v1.0.0-rc9 branch). No legacy, no aliases.
+
+[package]
+name = "crpt_engine"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.74"
+description = "CRPT ω-Tower engine — the rc9 specification realized in Rust; module structure = the spec's rank/section structure."

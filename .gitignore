@@ -1,0 +1,8 @@
+# Local spec archive copied into this workspace for reference only.
+# These files are intentionally excluded from the CRPT-Rust Git repository.
+CRPT_RF/
+CRPT_RF-*.tar.gz
+crpt-rust*.tar.gz
+
+# Generated build output
+/target/
